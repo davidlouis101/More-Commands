@@ -18,7 +18,7 @@ use pocketmine\item\Item;
    	if($sender instanceof Player) {
    	 if($sender->hasPermission("heal.use")) {
    	    $sender->setHealth(20);
-            $sender->sendMessage($this->fts . TF::GREEN . " You have been healed to max health!");
+            $sender->sendMessage($this->fts . TF::GREEN . " You have been healed!");
             }else{
             $sender->sendMessage($this->fts . TF::RED . " You are not allowed to use this command");
                }
