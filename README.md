@@ -4,4 +4,6 @@ all types of cool commands
 -heal
 -speed
 -nightvision
+-feed
 -etc
+-more to come
