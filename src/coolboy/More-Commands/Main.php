@@ -1,5 +1,5 @@
 <?php
-namespace esh123cookie\More-Commands;
+namespace esh123cookie\MoreCommands;
 use pocketmine\entity\Effect;
 use pocketmine\entity\EffectInstance;
 use pocketmine\plugin\PluginBase;
