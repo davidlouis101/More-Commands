@@ -13,19 +13,7 @@ use pocketmine\item\Item;
  
 	public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args): bool {
     
-   if($cmd->getName() == "food") {
-     if($sender instanceof Player) {
-     if($sender->hasPermission("food.use")) {    
-     	$sender->getInventory()->addItem(Item::get(Item::BREAD, 0, 8));
-     	$sender->getlevel()->addSound(new PopSound($sender));
-         $sender->sendMessage($this->fts . TF::GREEN . "You have got bread!");
-	 }else{ 
-	 $sender->sendMessage($this->fts . TF::RED . " You are not allowed to use this command");
-            }
-         }
-       return true;
-    }
-	 
+  
    if($cmd->getName() == "heal") {
    	if($sender instanceof Player) {
    	 if($sender->hasPermission("heal.use")) {
