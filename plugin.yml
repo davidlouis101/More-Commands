@@ -28,3 +28,6 @@ commands:
   cclear:
      description: Clears the chat
      aliases: [chatclear]
+  speed:
+     description: gives speed
+     aliases: ["s"]
