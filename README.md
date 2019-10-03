@@ -1,9 +1,9 @@
 # More-Commands
 all types of cool commands
--gma
+-GMA
 -heal
 -speed
--nightvision
+-Nightvision
 -feed
--gmc
+-GMC
 -more to come
