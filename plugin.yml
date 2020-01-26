@@ -9,11 +9,11 @@ commands:
   feed:
     description: Feeds you
   food:
-    description: Gives you 8 bread
+    description: Gibt dir 8 Brott
   gmc:
-    description: Set gamemode to creative mode
+    description: Andert dich in gmc
   gms:
-    description: Set gamemode to survival mode
+    description: andert dich in gms
   gma:
     description: Set gamemode to adventure mode  
   gmspc:
